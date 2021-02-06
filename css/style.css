@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(230, 230, 230, 0.651);
+}
+.page-header{
+    background-color: #0F9A7B;
+   
+}
+.navbar{
+    margin-top: 5px;
+}
+.navbar-brand, .nav-item .nav-link ,.btn{
+    color: white;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.btn{
+    padding: 10px 20px;
+}
+.services{
+    text-align: center;
+    padding-top: 80px;
+}
+.services h1,.navbar-brand{
+    font-weight: 800;
+}
+.services p{
+   color: rgba(129, 129, 129, 0.767);
+   margin-top: 20px;
+}
+.col-md-3{
+    background-color: white;
+    margin: 30px 40px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.col-md-3 .icon img{
+    width: 40px;
+}
+.col-md-3 h3{
+    font-size: 20px;
+    margin-top: 15px;
+}
